@@ -1,0 +1,73 @@
+{
+  "scripts": {
+    "sync": "public-sync"
+  },
+  "devDependencies": {
+    "public-sync": "^1.0.0"
+  },
+  "publicSync": {
+    "publicDir": "./Public",
+    "privateDir": "./Private",
+    "overrideExceptions": [
+      "/*.git$/*"
+    ],
+    "excludeDirs": [
+      [
+        "/*dist/*",
+        "dist/"
+      ],
+      [
+        "/*build/*",
+        "build/"
+      ],
+      [
+        "/*node_modules/*",
+        "node_modules/"
+      ],
+      [
+        "/*.git/*",
+        ".git/"
+      ],
+      [
+        "/*.env",
+        ".env"
+      ],
+      [
+        "/*.gitignore",
+        ".gitignore"
+      ],
+      [
+        "/*.config.*",
+        ".config."
+      ],
+      [
+        "/*vite-env.d.ts",
+        "vite-env.d.ts"
+      ],
+      [
+        "/*.babelrc",
+        ".babelrc"
+      ],
+      [
+        "/*.eslintrc.cjs",
+        ".eslintrc.cjs"
+      ],
+      [
+        "/*.prettierrc",
+        ".prettierrc"
+      ],
+      [
+        "/*.tsconfig.json",
+        ".tsconfig.json"
+      ],
+      [
+        "/*package.json",
+        "package.json"
+      ],
+      [
+        "/*package-lock.json",
+        "package-lock.json"
+      ]
+    ]
+  }
+}

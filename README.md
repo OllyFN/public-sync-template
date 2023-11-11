@@ -7,10 +7,11 @@ This is the `public-sync` template. It's designed to help you work on your code 
 
 1. **Create & Clone**: Use this template to create a new repo and clone it.
 2. **Install**: Run `npm install` in your local repo.
-3. **Work**: Add your code to the `Private` folder.
-4. **Configure**: Adjust `public-sync` settings in `package.json` if needed.
-5. **Sync**: Run `npm run sync` to copy files from `Private` to `Public`.
-6. **Commit & Push**: Use `git` commands in your synced directories.
+3. **Init**: Run `npm run sync` to create `Private` & `Public` folder.
+4. **Work**: Add your code to the `Private` folder.
+5. **Configure**: Adjust `public-sync` settings in `package.json` if needed.
+6. **Sync**: Run `npm run sync` to copy files from `Private` to `Public`.
+7. **Commit & Push**: Use `git` commands in your synced directories.
 
 </details>
 
